@@ -19,6 +19,7 @@ A cross-platform Flutter application (Web & macOS) serving as a digital office p
 ## Project Structure
 
 The project uses a **modular monorepo** structure with Flutter workspaces. Each module is an independent Dart package under `modules/`.
+```
 migrant-office/
 ├── lib/                    # App entry point
 ├── web/                    # Flutter Web platform files
@@ -32,6 +33,7 @@ migrant-office/
 │   └── applications/       # Business feature modules
 ├── pubspec.yaml
 └── analysis_options.yaml
+```
 
 ---
 
