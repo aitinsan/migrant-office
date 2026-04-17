@@ -1,0 +1,16 @@
+targets:
+  $default:
+    builders:
+      mockito|mockBuilder:
+        generate_for:
+          - test/mocks/auth.dart
+      flutter_gen:
+        options:
+          output: lib/src/assets/generated
+          line_length: 80
+          integrations:
+            flutter_svg: true
+          assets:
+            outputs:
+              package_parameter_enabled: true
+              class_name: AuthAssets

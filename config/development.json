@@ -1,0 +1,7 @@
+{
+  "FLAVOR": "dev",
+  "API_BASE_URL_DEV": "https://dev.nomadee.org/",
+  "API_BASE_URL_PROD": "https://nomadee.org/",
+  "API_BASE_URL_LOCAL_MOCK": "https://mock.nomadee.org/",
+  "NETWORK_TIMEOUT": 30
+}

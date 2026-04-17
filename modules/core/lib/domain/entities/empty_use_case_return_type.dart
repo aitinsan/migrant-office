@@ -1,0 +1,3 @@
+class EmptyUseCaseReturnType {
+  const EmptyUseCaseReturnType();
+}

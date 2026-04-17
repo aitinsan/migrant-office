@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      flutter_gen:
+        options:
+          output: lib/assets/generated
+          line_length: 80
+          integrations:
+            flutter_svg: true
+          assets:
+            outputs:
+              package_parameter_enabled: true

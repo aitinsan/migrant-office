@@ -1,0 +1,50 @@
+name: core
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.11.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility
+  async: 2.13.0
+  equatable: 2.0.8
+  rxdart: 0.28.0
+  collection: ^1.19.1
+
+  # Storage
+  flutter_secure_storage: 10.0.0
+  shared_preferences: 2.5.4
+  
+  # State Management
+  bloc: 9.2.0
+  bloc_concurrency: 0.3.0
+  flutter_bloc: 9.1.1
+
+  # Network
+  dio: 5.9.2
+  connectivity_plus: 7.0.0
+  crypto: 3.0.7
+
+  # Annotations
+  freezed_annotation: 3.1.0
+  json_annotation: 4.11.0
+  meta: 1.17.0
+  package_info_plus: 9.0.0
+  device_info_plus: ^12.3.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 6.0.0
+  json_serializable: 6.13.0
+  build_runner: 2.12.2
+  freezed: 3.2.5

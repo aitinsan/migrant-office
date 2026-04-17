@@ -1,0 +1,46 @@
+name: design_system
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.11.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: 4.11.0
+  copy_with_extension: 10.0.1
+  freezed_annotation: 3.1.0
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+    ^6.0.0
+    # code gen
+  build_runner: 2.12.2
+  flutter_gen_runner: 5.12.0
+  json_serializable: 6.13.0
+  
+
+flutter:
+  generate: true
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: packages/design_system/fonts/rubik/Rubik-Regular.ttf
+          weight: 400
+        - asset: packages/design_system/fonts/rubik/Rubik-Medium.ttf
+          weight: 500
+    - family: ZamanIcons
+      fonts:
+        - asset: packages/design_system/fonts/icons/ZamanIcons.ttf
+
+  uses-material-design: true
